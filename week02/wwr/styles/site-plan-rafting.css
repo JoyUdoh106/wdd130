@@ -1,2 +1,58 @@
 @import url('https://fonts.goggleapis.com/css2family=poetsenone&family=playfairdisplay&display=swap');
 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --dark-moss-green: #606c38;
+    --pakistan-green: #283618;
+    --cornsilk: #fefae0;
+    --earth-yellow: #dda15e;
+
+    --heading-font: 'poetson one font', san-serif;
+    --paragraph-font: 'playfair display', display;
+
+    --nav-background-color: #606c38;
+    --nav-link-color: #fefae0;
+    --nav-hover-link-color: #dda15e;
+    --nav-hover-background-color: #283618;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--earth-yellow);
+} 
+
+header {
+    padding: 20px;
+    background-color: var(--cornsilk);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
