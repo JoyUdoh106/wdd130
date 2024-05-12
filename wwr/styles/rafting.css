@@ -1,0 +1,38 @@
+@import url('https://fonts.goggleapis.com/css2family=poetsenone&family=playfairdisplay&display=swap');
+
+h2 {
+    color: #dda15e;
+}
+
+p {
+    font-family: 'poetson one font', san-serif;
+    color: #333;
+}
+
+.sociallinks {
+    text-underline-position: remove;
+}
+
+* {
+    width: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, article {
+    position: absolute;
+}
+
+article {
+    background-color: #283618;
+}
+
+article img {
+    float: right;
+}
+
+
