@@ -2,9 +2,9 @@
 
 /* Define CSS variables */
 :root {
-  --white-water-rafting: #fefae0; /* example primary color */
-  --history: #dda15e; /* example secondary color */
-  --adventure-awaits-you: #dda15e; /* example text color */
+  --white-water-rafting: #fefae0; 
+  --history: #dda15e; 
+  --adventure-awaits-you: #dda15e;
 }
 
 /* Global styles */
@@ -17,12 +17,12 @@ body {
 
 /* Headings and paragraph elements */
 h1, h2 {
-  color: var(--white-water-rafting); /* Apply primary color to headings */
+  color: var(--white-water-rafting); 
   margin-top: 0;
 }
 
 p {
-  color: var(--adventure-awaits-you); /* Apply text color to paragraphs */
+  color: var(--adventure-awaits-you); 
 }
 
 /* Social media links */
@@ -42,7 +42,7 @@ p {
   height: auto;
 }
 
-.hero {
+.hero ::content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -51,20 +51,20 @@ p {
   padding: 20px;
 }
 
-h1 {
+ .hero h1 {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-article {
+.hero article {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  max-width: 50%; /* Example maximum width for the article */
+  max-width: 50%;
   background-color: #222;
 }
 
 article img {
   float: right; /* Float the image to the right of the paragraph */
-}
+} 
