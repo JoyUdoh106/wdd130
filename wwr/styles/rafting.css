@@ -1,11 +1,5 @@
 @import url('https://fonts.goggleapis.com/css2family=poetsenone&family=playfairdisplay&display=swap');
 
-
-
-
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 /* Define CSS variables */
 :root {
   --white-water-rafting: #fefae0; /* example primary color */
@@ -36,9 +30,6 @@ p {
   text-decoration: none; /* Remove underlines from social media links */
 }
 
-/* Limit page width */
-
-
 /* Hero container */
 .hero {
   position: relative; /* Make the hero container relative */
@@ -56,7 +47,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.7); /* Example background color with opacity */
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
 }
 
@@ -71,6 +62,7 @@ article {
   bottom: 20px;
   left: 20px;
   max-width: 50%; /* Example maximum width for the article */
+  background-color: #222;
 }
 
 article img {
