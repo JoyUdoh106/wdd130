@@ -1,38 +1,78 @@
 @import url('https://fonts.goggleapis.com/css2family=poetsenone&family=playfairdisplay&display=swap');
 
-h2 {
-    color: #dda15e;
+
+
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS variables */
+:root {
+  --white-water-rafting: #fefae0; /* example primary color */
+  --history: #dda15e; /* example secondary color */
+  --adventure-awaits-you: #dda15e; /* example text color */
+}
+
+/* Global styles */
+body {
+  font-family: 'Poetson One Font', sans-serif; /* Use Google Font */
+  color: var(--adventure-awaits-you); /* Apply text color variable */
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings and paragraph elements */
+h1, h2 {
+  color: var(--white-water-rafting); /* Apply primary color to headings */
+  margin-top: 0;
 }
 
 p {
-    font-family: 'poetson one font', san-serif;
-    color: #333;
+  color: var(--adventure-awaits-you); /* Apply text color to paragraphs */
 }
 
-.sociallinks {
-    text-underline-position: remove;
+/* Social media links */
+.sociallink {
+  text-decoration: none; /* Remove underlines from social media links */
 }
 
-* {
-    width: auto;
+/* Limit page width */
+
+
+/* Hero container */
+.hero {
+  position: relative; /* Make the hero container relative */
+  width: 100%; /* Make it fill the width of its container */
 }
 
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+  width: 100%; /* Make the hero image fill the width of its container */
+  display: block; /* Make it a block element */
+  height: auto;
 }
 
-h1, article {
-    position: absolute;
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Example background color with opacity */
+  padding: 20px;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 article {
-    background-color: #283618;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  max-width: 50%; /* Example maximum width for the article */
 }
 
 article img {
-    float: right;
+  float: right; /* Float the image to the right of the paragraph */
 }
-
-
