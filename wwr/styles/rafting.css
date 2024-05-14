@@ -2,27 +2,28 @@
 
 /* Define CSS variables */
 :root {
-  --white-water-rafting: #fefae0; 
-  --history: #dda15e; 
-  --adventure-awaits-you: #dda15e;
+    --primary-color: #606c38;
+    --secondary-color: #283618;
+    --background-color: #fefae0;
+    --text-color: #dda15e;
 }
 
 /* Global styles */
 body {
   font-family: 'Poetson One Font', sans-serif; /* Use Google Font */
-  color: var(--adventure-awaits-you); /* Apply text color variable */
-  margin: 0;
-  padding: 0;
+  max-width: 1200px;
+  color: var(--text-color); /* Apply text color variable */
+  margin: 0 auto;
 }
 
 /* Headings and paragraph elements */
 h1, h2 {
-  color: var(--white-water-rafting); 
+  color: var(--primary-color); 
   margin-top: 0;
 }
 
 p {
-  color: var(--adventure-awaits-you); 
+  color: var(--text-color); 
 }
 
 /* Social media links */
@@ -38,33 +39,36 @@ p {
 
 .hero img {
   width: 100%; /* Make the hero image fill the width of its container */
+  object-fit: cover;
   display: block; /* Make it a block element */
-  height: auto;
+  height: 100%;
 }
 
-.hero ::content {
+.hero h1 {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50px;
+  left: 50px;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 20px;
-}
-
- .hero h1 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .hero article {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  max-width: 50%;
-  background-color: #222;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-color);
+  opacity: 0.8;
+  padding: 20px;
 }
 
-article img {
+.hero article {
+    color: var(--text-color);
+}
+
+.hero article img {
   float: right; /* Float the image to the right of the paragraph */
+  margin: 10px;
 } 

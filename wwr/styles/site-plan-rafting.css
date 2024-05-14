@@ -7,10 +7,10 @@ body {
 }
 
 :root {
-    --dark-moss-green: #606c38;
-    --pakistan-green: #283618;
-    --cornsilk: #fefae0;
-    --earth-yellow: #dda15e;
+    --primary-color: #606c38;
+    --secondary-color: #283618;
+    --background-color: #fefae0;
+    --text-color: #dda15e;
 
     --heading-font: 'Poetson One Font', san-serif;
     --paragraph-font: 'Playfair Display', display;
@@ -23,12 +23,12 @@ body {
 
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    color: var(--earth-yellow);
+    color: var(--text-color);
 } 
 
 header {
     padding: 20px;
-    background-color: var(--cornsilk);
+    background-color: var(--background-color);
 }
 
 p {
