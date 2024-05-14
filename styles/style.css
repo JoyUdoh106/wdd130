@@ -41,8 +41,13 @@ footer {
     color: #222;
 }
 
+aside {
+    width: 20rem;
+    text-align: center;
+}
+
 aside h2 {
     position: absolute;
-    top: 69px;
-    left: 200px;
+    top: 47px;
+    left: 150px;
 }
