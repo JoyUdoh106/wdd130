@@ -72,3 +72,7 @@ p {
   float: right; /* Float the image to the right of the paragraph */
   margin: 10px;
 } 
+
+header img {
+  position: top;
+}
