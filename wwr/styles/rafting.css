@@ -61,7 +61,9 @@ p {
 
 .hero article {
   display: grid;
-  grid-column: auto;
+  grid-column-start: 1;
+  grid-column-end: auto;
+  grid-row: 2 / 3;
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
