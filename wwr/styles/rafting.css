@@ -60,12 +60,12 @@ p {
   left: 0;
   width: 20px;
   background-color: var(--background-color);
-  opacity: 0.8;
-  padding: 20px;
+  /* opacity: 0.8;
+  padding: 20px; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
 }
 
 .hero article p {
