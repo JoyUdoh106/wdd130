@@ -43,7 +43,7 @@ p {
   height: auto;
 }
 
-.hero h1 {
+h1 {
   position: absolute;
   /* top: 50px;
   left: 50px;
@@ -53,7 +53,7 @@ p {
   font-weight: 600; */
 }
 
-.hero article {
+article {
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
@@ -65,7 +65,7 @@ p {
   color: var(--text-color);
 } */
 
-.hero article img {
+article img {
   float: right; /* Float the image to the right of the paragraph */
   margin: 20px;
   /*
