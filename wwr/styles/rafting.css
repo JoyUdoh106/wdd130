@@ -50,18 +50,18 @@ p {
   left: 50px;
   transform: translate(-50%, -50%);
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .hero article {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 100px;
+  left: 0;
+  width: 20px;
   background-color: var(--background-color);
-  opacity: 0.8;
-  padding: 20px;
+  /* opacity: 0.8;
+  padding: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
