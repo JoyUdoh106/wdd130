@@ -39,46 +39,37 @@ p {
 
 .hero img {
   width: 500px; /* Make the hero image fill the width of its container */
-  object-fit: cover;
   display: block; /* Make it a block element */
   height: 300px;
 }
 
 .hero h1 {
   position: absolute;
-  top: 50px;
+  /* top: 50px;
   left: 50px;
   transform: translate(-50%, -50%);
   color: var(--primary-color);
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 600; */
 }
 
 .hero article {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
   background-color: var(--background-color);
-  /* opacity: 0.8;
-  padding: 20px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  align-items: right;
+  opacity: 1;
 }
 
-.hero article p {
+/* .hero article p {
   text-align: left;
   margin-top: 10px;
   color: var(--text-color);
-}
+} */
 
 .hero article img {
   float: right; /* Float the image to the right of the paragraph */
-  margin: 20px;
+  /* margin: 20px;
   display: block;
   width: 10px;
   height: auto;
-  object-fit: contain;
+  object-fit: contain; */
 } 
