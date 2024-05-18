@@ -60,7 +60,7 @@ p {
 }
 
 .hero article {
-  flex-direction: center;
+  flex-direction: row 2;
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
