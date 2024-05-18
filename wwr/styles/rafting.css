@@ -60,7 +60,8 @@ p {
 .hero article {
   position: absolute;
   background-color: var(--background-color);
-  opacity: 1;
+  opacity: 0.8;
+  z-index: center;
 }
 
 /* .hero article p {
