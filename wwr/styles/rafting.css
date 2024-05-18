@@ -1,4 +1,4 @@
-@import url('https://fonts.goggleapis.com/css2family=poetsenone&family=playfairdisplay&display=swap');
+@import url('https://fonts.goggleapis.com/css2family=poetsenone&family=swap');
 
 /* Define CSS variables */
 :root {
@@ -17,7 +17,7 @@ body {
 }
 
 /* Headings and paragraph elements */
-h1, h2 {
+h2 {
   color: var(--primary-color); 
   margin-top: 0;
 }
@@ -43,8 +43,9 @@ p {
   height: auto;
 }
 
-h1 {
+.hero h1 {
   position: absolute;
+  justify-content: center;
   /* top: 50px;
   left: 50px;
   transform: translate(-50%, -50%);
@@ -53,10 +54,10 @@ h1 {
   font-weight: 600; */
 }
 
-article {
+.hero article {
   position: absolute;
   background-color: var(--background-color);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 /* .hero article p {
@@ -65,9 +66,8 @@ article {
   color: var(--text-color);
 } */
 
-article img {
+.hero article img {
   float: right; /* Float the image to the right of the paragraph */
-  margin: 20px;
   /*
   display: block;
   width: 10px;
