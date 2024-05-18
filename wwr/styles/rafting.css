@@ -47,7 +47,7 @@ p {
 
 .hero h1 {
   display: flex;
-  position: absolute;
+  position: relative;
   z-index: center;
   align-items: flex-start;
   /* top: 50px;
