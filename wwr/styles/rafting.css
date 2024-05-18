@@ -60,8 +60,8 @@ p {
   left: 0;
   width: 20px;
   background-color: var(--background-color);
-  /* opacity: 0.8;
-  padding: 20px; */
+  opacity: 0.8;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,6 +75,8 @@ p {
 .hero article img {
   float: right; /* Float the image to the right of the paragraph */
   margin: 100px;
+  padding: 25px;
+  border: 50px;
   display: block;
   width: 14px;
   height: 14px;
