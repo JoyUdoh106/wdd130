@@ -60,7 +60,8 @@ p {
 }
 
 .hero article {
-  flex-direction: row 2;
+  display: grid;
+  grid-column: auto;
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
