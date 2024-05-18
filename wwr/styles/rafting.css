@@ -62,12 +62,12 @@ p {
 
 .hero article {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   align-content: center;
   position: absolute;
+  z-index: center;
   background-color: var(--background-color);
   opacity: 0.8;
-  align-items: center;
 }
 
 /* .hero article p {
