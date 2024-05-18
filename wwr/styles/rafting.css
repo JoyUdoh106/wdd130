@@ -35,6 +35,8 @@ p {
 .hero {
   position: relative; /* Make the hero container relative */
   width: 100%; /* Make it fill the width of its container */
+  justify-content: center;
+  align-content: flex-start;
 }
 
 .hero img {
@@ -45,7 +47,6 @@ p {
 
 .hero h1 {
   position: absolute;
-  justify-content: center;
   /* top: 50px;
   left: 50px;
   transform: translate(-50%, -50%);
@@ -68,6 +69,8 @@ p {
 
 .hero article img {
   float: right; /* Float the image to the right of the paragraph */
+  width: 20px;
+  height: auto;
   /*
   display: block;
   width: 10px;
