@@ -50,7 +50,7 @@ p {
   left: 50px;
   transform: translate(-50%, -50%);
   color: var(--primary-color);
-  font-size: 26px;
+  font-size: 16px;
   font-weight: 600;
 }
 
