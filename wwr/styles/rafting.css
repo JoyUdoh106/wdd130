@@ -37,7 +37,6 @@ p {
   display: flex;
   width: 100%; /* Make it fill the width of its container */
   justify-content: center;
-  align-content: flex-start;
 }
 
 .hero img {
@@ -49,6 +48,7 @@ p {
 .hero h1 {
   position: absolute;
   z-index: center;
+  align-content: flex-start;
   /* top: 50px;
   left: 50px;
   transform: translate(-50%, -50%);
@@ -60,7 +60,7 @@ p {
 .hero article {
   position: absolute;
   background-color: var(--background-color);
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* .hero article p {
@@ -71,7 +71,7 @@ p {
 
 .hero article img {
   float: right; /* Float the image to the right of the paragraph */
-  width: 80px;
+  width: 100px;
   height: auto;
   /*
   display: block;
