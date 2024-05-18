@@ -76,7 +76,7 @@ p {
 
 .hero article img {
   float: right; /* Float the image to the right of the paragraph */
-  margin: 100px;
+  margin: 20px;
   display: block;
   width: 10px;
   height: auto;
