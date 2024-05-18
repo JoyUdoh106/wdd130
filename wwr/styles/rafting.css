@@ -38,6 +38,7 @@ p {
   width: 100%; /* Make it fill the width of its container */
   justify-content: center;
   align-content: flex-start;
+  z-index: center;
 }
 
 .hero img {
@@ -48,6 +49,7 @@ p {
 
 .hero h1 {
   position: absolute;
+
   /* top: 50px;
   left: 50px;
   transform: translate(-50%, -50%);
