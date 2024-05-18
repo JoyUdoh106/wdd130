@@ -48,7 +48,7 @@ p {
 
 .hero h1 {
   display: flex;
-  position: relative;
+  position: absolute;
   z-index: center;
   align-items: flex-start;
   /* top: 50px;
@@ -64,7 +64,7 @@ p {
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
-  align-items: center;
+  align-content: center;
 }
 
 /* .hero article p {
