@@ -37,6 +37,7 @@ p {
   display: flex;
   width: 100%; /* Make it fill the width of its container */
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero img {
@@ -59,6 +60,7 @@ p {
 }
 
 .hero article {
+  display: flex;
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
