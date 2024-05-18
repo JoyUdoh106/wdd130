@@ -33,7 +33,7 @@ p {
 
 /* Hero container */
 .hero {
-  position: absolute; /* Make the hero container relative */
+  position: relative; /* Make the hero container relative */
   width: 100%; /* Make it fill the width of its container */
 }
 
@@ -74,4 +74,5 @@ p {
   width: 20%;
   height: 20%;
   display: block;
+  object-fit: contain;
 } 
