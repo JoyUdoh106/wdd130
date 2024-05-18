@@ -56,7 +56,7 @@ p {
 .hero article {
   position: absolute;
   background-color: var(--background-color);
-  opacity: 10;
+  opacity: 0.8;
 }
 
 /* .hero article p {
