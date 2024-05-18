@@ -51,6 +51,7 @@ p {
   position: absolute;
   z-index: center;
   align-items: flex-start;
+  align-content: center;
   /* top: 50px;
   left: 50px;
   transform: translate(-50%, -50%);
@@ -60,10 +61,9 @@ p {
 }
 
 .hero article {
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: auto;
-  grid-row: 2 / 2;
+  display: flex;
+  align-items: center;
+  align-content: center;
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
