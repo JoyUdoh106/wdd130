@@ -63,7 +63,7 @@ p {
   position: absolute;
   background-color: var(--background-color);
   opacity: 0.8;
-  align-content: center;
+  align-items: center;
 }
 
 /* .hero article p {
