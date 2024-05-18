@@ -50,7 +50,7 @@ p {
   left: 50px;
   transform: translate(-50%, -50%);
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 90px;
   font-weight: 600;
 }
 
@@ -70,9 +70,9 @@ p {
 
 .hero article img {
   float: right; /* Float the image to the right of the paragraph */
-  margin: 20px;
+  /* margin: 20px;
   width: 20px;
   height: 20px;
   display: block;
-  object-fit: contain;
+  object-fit: contain; */
 } 
