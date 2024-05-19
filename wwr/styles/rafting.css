@@ -62,8 +62,9 @@ p {
 
 .hero article {
   display: flex;
-  align-items: flex-end;
-  align-content: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   z-index: center;
   background-color: var(--background-color);
