@@ -24,6 +24,9 @@ p {
  .sociallinks {
     text-decoration: none;
 }
+ nav a {
+    text-decoration: none;
+ }
 
 .hero {
     position: relative;
@@ -31,7 +34,6 @@ p {
     height: auto;
     display: flex;
     justify-content: center;
-    display: flex;
     flex-direction: column;
 }
 
