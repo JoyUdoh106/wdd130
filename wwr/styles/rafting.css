@@ -8,24 +8,43 @@
 body {
     max-width: 1200px;
     color: var(--primary-color);
-    font-family: "Merriweather", "Roboto", serif;
     margin: 0 auto;
 }
 
 h1, h2 {
-    color: var(--accent2-color); 
-    margin-top: 0;  
+    color: var(--accent2-color);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Merriweather", "Roboto", serif;
 }
 
 p {
     color: var(--accent1-color);
+    padding: 20px;
 }
 
- .sociallinks {
-    text-decoration: none;
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 550px 1fr;
+	align-items: center;
+	border-bottom: 1px solid var(--accent2-color);
+    max-width: 100%;
 }
- nav a {
+
+header img {
+    margin: 0 1rem;
+	width: 50%;
+	height: auto;
+}
+
+header nav a {
     text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+    color: var(--secondary-color);
  }
 
 .hero {
@@ -78,4 +97,89 @@ p {
 
 .hero article p {
     margin: 20px 40px;
+}
+
+section {
+
+    text-align: center;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.section {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+}
+
+.content p {
+    flex: 1;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+figure {
+    text-align: center;
+    max-width: 140px;
+}
+
+figure img {
+    width: 170px;
+    height: auto;
+    border-radius: 6px;
+}
+
+figcaption {
+    font-size: 14px;
+    margin-top: 5px;
+    color: var(--accent1-color);
+} 
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid var(--accent2-color);
+}
+
+footer p {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sociallinks {
+    display: flex;
+    gap: 10px;
+}
+
+.sociallinks a img {
+    width: 50px;
+    height: auto;
 }
