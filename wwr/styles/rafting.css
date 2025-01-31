@@ -21,31 +21,43 @@ h1 {
 }
 
 p {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     padding: 20px;
 }
 
 header {
     margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 550px 1fr;
+    padding: 10px 20px;
+	display: flex;
 	align-items: center;
 	border-bottom: 1px solid var(--accent2-color);
     max-width: 100%;
+    justify-content: space-between;
 }
 
 header img {
     margin: 0 1rem;
-	width: 50%;
+	width: 40%;
 	height: auto;
 }
 
-header nav a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 25px;
-    color: var(--secondary-color);
+header nav {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 15px;
  }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
 
 .hero {
     position: relative;
@@ -182,4 +194,9 @@ footer p {
 .sociallinks a img {
     width: 50px;
     height: auto;
+    text-decoration: none;
+}
+
+.sociallinks a {
+    text-decoration: none;
 }
