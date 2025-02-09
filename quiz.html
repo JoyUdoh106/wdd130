@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Joy Paulinus Udoh | Example Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <meta name="author" content="Joy Paulinus Udoh">
+    <meta name="description" content="An Example Quiz form">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Basic HTML and CSS Quiz Form</h1>
+            <p>Please Answer The Following Questions</p>
+        </div>
+    </header>
+    <main>
+        <form>
+           <label for="q1"><span id="number">1.</span> What does the acronym HTML stand for? </label>
+           <input id="q1" name="q1" type="text" required />
+           <label for="q2"><span id="number">2.</span> Explain the difference between 'padding' and 'margin'</label>
+           <textarea id="q2" name="q2" rows="5"></textarea>
+           <label for="q3"><span id="number">3.</span> Which is the correct HTML comment</label>
+           <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose one</option>
+                <option value="1"> !:: :: </option>
+                <option value="2"> //.. ..// </option>
+                <option value="3"> !-- -- </option>
+           </select>
+           <label for="q4"><span id="nummber">4.</span>  <input id="q4" name="q4" type="number" required /></label>
+           <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>
+
+<!--  -->
