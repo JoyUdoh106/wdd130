@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="main-header">
         <img src="images/logo.webp" alt="Logo">  
-        <nav>
+        <nav id="main-nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
@@ -23,21 +23,21 @@
         </nav>
     </header>
     <main>
-        <div class="contact">
+        <div id="contact-hero" class="contact">
             <img src="images/hero.webp" alt="Hero Image">
-            <section class="hero-content">
+            <section id="hero-content" class="hero-content">
                 <h1>Contact Us Today</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eius eveniet aliquam quibusdam odit amet voluptate impedit eum cumque ipsam, delectus aut magnam asperiores accusamus esse minus earum est excepturi! Beatae impedit rerum vitae fugiat accusamus quasi eaque nesciunt fuga dolorem, exercitationem facere omnis voluptates quod accusantium adipisci dicta eos odio! Repellendus eligendi tempore voluptatum dolore alias maiores, facere necessitatibus!</p>
             </section>
         </div>
-        <section class="company-info">
-            <div class="company-text">
+        <section id="company-info" class="company-info">
+            <div id="conpany-text" class="company-text">
                 <h2>Our Location</h2>
                 <p>123 River Lane, Adventure Town, Country</p>
                 <p>📞 +123 456 7890</p>
                 <p>📧 contact@raftingco.com</p>
             </div>
-            <div class="map-container">
+            <div id="map-container" class="map-container">
                 <iframe 
                     src="https://www.google.com/maps/embed?pb=..."
                     allowfullscreen loading="lazy">
@@ -45,20 +45,20 @@
             </div>
         </section>
 
-        <section class="team">
+        <section id="team" class="team">
             <h2>Meet Our Team</h2>
-            <div class="employees">
+            <div id="employees" class="employees">
                 <div class="employee">
                     <img src="images/employee1.jpg" alt="Employee 1">
                     <p>Amos Berry - Manager</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum sunt officiis pariatur! Repudiandae perferendis veritatis quae? Culpa deserunt obcaecati quos voluptas quae enim consectetur laudantium, a quis, totam autem.</p>
                 </div>
-                <div class="employee">
+                <div id="employees" class="employee">
                     <img src="images/employee2.jpg" alt="Employee 2">
                     <p>Clare Mason - Customer Support</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum sunt officiis pariatur! Repudiandae perferendis veritatis quae? Culpa deserunt obcaecati quos voluptas quae enim consectetur laudantium, a quis, totam autem.</p>
                 </div>
-                <div class="employee">
+                <div id="employees" class="employee">
                     <img src="images/employee3.jpg" alt="Employee 3">
                     <p>Annabella Edwards - Rafting Guide</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum sunt officiis pariatur! Repudiandae perferendis veritatis quae? Culpa deserunt obcaecati quos voluptas quae enim consectetur laudantium, a quis, totam autem.</p>
@@ -66,15 +66,15 @@
             </div>
         </section>
 
-        <section class="contact-form">
+        <section id="contact-form" class="contact-form">
             <h2>Get In Touch</h2>
             <p>Send us a message today and we'll respond in 24 hours</p>
-            <form action="#" method="post">
+            <form id="message-form" action="#" method="post">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email" required>
-                <fieldset>
+                <fieldset id="message-purpose">
                     <legend>Purpose of Message:</legend>
                     <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
                     <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
@@ -85,7 +85,7 @@
                 <label>
                     <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
                 </label>
-                <div class="button">
+                <div id="submit-button" class="button">
                     <button type="submit">SEND MESSAGE</button>
                 </div>
             </form>
